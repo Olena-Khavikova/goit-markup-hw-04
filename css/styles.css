@@ -21,8 +21,6 @@
   padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: solid 1px magenta;
 }
 .title {
   margin-top: 0px;
@@ -46,8 +44,6 @@
   margin-right: auto;
 
   background-color: var(--secondary-bg-color);
-
-  outline: solid 1px magenta;
 }
 
 body {
@@ -95,7 +91,6 @@ body {
   margin-left: 93px;
 }
 .site-nav .item {
-  outline: 1px solid magenta;
 }
 
 .site-nav .item:not(:last-child) {
@@ -232,7 +227,6 @@ body {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   margin-bottom: 0px;
-  outline: 1px solid magenta;
 }
 .features-item:nth-child(4n) {
   margin-right: 0px;
@@ -281,6 +275,11 @@ body {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   margin-bottom: 30px;
+
+  background: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:nth-child(4n) {
@@ -341,7 +340,9 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  outline: 1px solid magenta;
+
+  background-color: var(--primary-white-color);
+  border: 1px solid #eeeeee;
 }
 .our-works-item:nth-child(3n) {
   margin-right: 0px;
@@ -349,6 +350,11 @@ body {
 
 .our-works-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+
+.our-works-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .page-footer {
   background-color: var(--dark-bg-color);
