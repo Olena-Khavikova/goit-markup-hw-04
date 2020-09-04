@@ -16,19 +16,32 @@
 }
 
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
 
   outline: solid 1px magenta;
 }
+.title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
+.white-cl {
+  color: var(--primary-white-color);
+}
 .secondary-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
 
@@ -173,6 +186,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .visually-hidden {
@@ -228,17 +242,6 @@ body {
   margin-bottom: 0px;
 }
 
-.features-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 .features p {
   margin-top: 0;
   margin-bottom: 0px;
@@ -264,19 +267,6 @@ body {
   margin-bottom: 0px;
 }
 
-.areas .title {
-  color: var(--title-text-color);
-}
-
-.team-set .title {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .team-set {
   display: flex;
   flex-wrap: wrap;
@@ -299,6 +289,14 @@ body {
 
 .team-item:nth-last-child(-n + 4) {
   margin-bottom: 0px;
+}
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-set p {
