@@ -31,7 +31,7 @@ img {
   height: auto;
 }
 
-header {
+.page-header {
   border: 1px solid #ececec;
 }
 
@@ -170,30 +170,6 @@ header {
   fill: var(--accent-color);
 }
 
-.button {
-  padding: 10px 32px;
-  min-width: 73px;
-  min-height: 38px;
-  text-decoration: none;
-  text-align: center;
-  border-color: transparent;
-  border-radius: 4px;
-
-  color: var(--title-text-color);
-  background-color: var(--secondary-bg-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88px;
-}
-
-.button:hover {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-}
-
 /* Hero */
 
 .hero {
@@ -234,7 +210,25 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.hero-button {
+  padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
 
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88px;
+}
+
+.hero-button:hover {
+  cursor: pointer;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -458,6 +452,31 @@ header {
   justify-content: center;
   margin-bottom: 50px;
 }
+
+.filter-button {
+  padding: 10px 32px;
+  min-width: 73px;
+  min-height: 38px;
+  text-decoration: none;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88px;
+}
+
+.filter-button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
 .our-works-filter .button-item + .button-item {
   margin-left: 8px;
 }
